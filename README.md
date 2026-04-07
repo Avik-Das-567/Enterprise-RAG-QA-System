@@ -61,14 +61,17 @@ The project follows a clean separation of concerns, isolating the core RAG logic
 Enterprise-RAG-QA-System/
 │
 ├── .streamlit/
-│       └── config.toml       # Enforces corporate theme (Green #0A5C36) and server settings
-├── backend/
-│       └── rag_pipeline.py   # Core logic: Extraction, Recursive Chunking, FAISS, and RAG Loop
-├── static/
-│       └── style.css         # UI Logic: Custom chat bubbles, sidebar styling, and typography
-├── requirements.txt
+│   └── config.toml       # Theme (Green #0A5C36) and server configuration
 │
-└── app.py                    # Streamlit Entry Point: State management, UI rendering, and caching
+├── backend/
+│   └── rag_pipeline.py   # Core Logic: Extraction, Recursive Chunking, FAISS, and RAG Loop
+│
+├── static/
+│   └── style.css         # UI Logic: Custom chat bubbles, sidebar styling, and typography
+│
+├── requirements.txt      # Production Dependencies
+│
+└── app.py                # Streamlit Entry Point: State management, UI rendering, and caching
 ```
 
 ---
