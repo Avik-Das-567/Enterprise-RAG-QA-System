@@ -80,3 +80,5 @@ Enterprise-RAG-QA-System/
 The user interface is designed with an "Enterprise-First" aesthetic. Through a custom `style.css` and a `config.toml` file, the application enforces a professional "Light" theme with specific visual cues:
 * **Message Distinction:** User messages are grounded with a green border (`#0A5C36`), while AI responses are highlighted in blue (`#1E88E5`) to ensure a clear conversational flow.
 * **Information Hierarchy:** Headers and message bubbles are styled for maximum readability, ensuring that citation data remains accessible but non-intrusive.
+
+---
