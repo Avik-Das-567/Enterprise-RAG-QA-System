@@ -1,5 +1,7 @@
 # Enterprise Knowledge Base Q&A System (RAG Implementation)
 
+**Live App: https://enterprise-rag-system.streamlit.app**
+
 This repository implements an industry-level **Retrieval-Augmented Generation (RAG)** system designed to address the inherent limitations of traditional enterprise search and standard Large Language Model (LLM) deployments. Conventional keyword-based search systems often fail to capture semantic intent, requiring exact matches that overlook relevant information. Furthermore, LLMs frequently "hallucinate" when queried about proprietary or non-public internal data that was not included in their original training sets.
 
 By integrating a high-performance vector retrieval engine with generative AI, this application provides a secure, natural language interface for employees to query proprietary documents, receiving accurate and citation-backed responses grounded solely in private enterprise data.
