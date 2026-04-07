@@ -1,6 +1,5 @@
-# Enterprise Knowledge Base Q&A System (RAG)
+# Enterprise Knowledge Base Q&A System (RAG Implementation)
 
-## Project Overview
 This repository implements an industry-level **Retrieval-Augmented Generation (RAG)** system designed to address the inherent limitations of traditional enterprise search and standard Large Language Model (LLM) deployments. Conventional keyword-based search systems often fail to capture semantic intent, requiring exact matches that overlook relevant information. Furthermore, LLMs frequently "hallucinate" when queried about proprietary or non-public internal data that was not included in their original training sets.
 
 By integrating a high-performance vector retrieval engine with generative AI, this application provides a secure, natural language interface for employees to query proprietary documents, receiving accurate and citation-backed responses grounded solely in private enterprise data.
@@ -17,7 +16,7 @@ By integrating a high-performance vector retrieval engine with generative AI, th
 
 ---
 
-## Comprehensive System Workflow
+## System Workflow
 
 The application operates through a modular multi-stage pipeline that manages the lifecycle of enterprise data from initial ingestion to final response generation.
 
@@ -60,6 +59,7 @@ The project follows a clean separation of concerns, isolating the core RAG logic
 
 ```
 Enterprise-RAG-QA-System/
+│
 ├── .streamlit/
 │       └── config.toml       # Enforces corporate theme (Green #0A5C36) and server settings
 ├── backend/
