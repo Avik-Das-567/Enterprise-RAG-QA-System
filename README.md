@@ -9,7 +9,7 @@ By integrating a high-performance vector retrieval engine with generative AI, th
 
 ## Technical Tech Stack
 * **Language Engine:** Python 3.14
-* **Generative LLM:** `gemini-3.1-flash-lite-preview` for low-latency, exhaustive reasoning.
+* **Generative LLM:** `gemini-3.1-flash-lite-preview` (for low-latency, exhaustive reasoning).
 * **Embedding Model:** `gemini-embedding-001` (producing high-density 3072-dimensional vectors).
 * **Vector Database:** **FAISS** (Facebook AI Similarity Search) utilizing an `IndexFlatL2` implementation for precise Euclidean distance matching.
 * **Frontend:** **Streamlit** with custom CSS and theme-level TOML injection.
