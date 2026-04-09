@@ -1,6 +1,6 @@
 # Enterprise Knowledge Base Q&A System (RAG Implementation)
 
-> A production-ready **Retrieval-Augmented Generation (RAG)** application that enables employees to query proprietary enterprise documents through a natural language interface, receiving accurate, grounded, and citation-backed answers — eliminating hallucinations and the limitations of keyword-based enterprise search.
+A production-ready **Retrieval-Augmented Generation (RAG)** application that enables employees to query proprietary enterprise documents through a natural language interface, receiving accurate, grounded, and citation-backed answers — eliminating hallucinations and the limitations of keyword-based enterprise search.
 
 **🌐 Live App:** [https://enterprise-rag-system.streamlit.app](https://enterprise-rag-system.streamlit.app)
 
