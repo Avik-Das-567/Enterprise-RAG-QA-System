@@ -110,7 +110,7 @@ with st.sidebar:
 
 # UI: Main Chat Interface
 
-st.title("🏢 Enterprise Knowledge Base Q&A")
+st.title("🏢 Enterprise Knowledge Base Q&A System")
 st.markdown("Ask natural language questions about your uploaded proprietary documents. Powered by **Gemini 3.1 Flash-Lite** and **FAISS**.")
 
 # Display Chat History
